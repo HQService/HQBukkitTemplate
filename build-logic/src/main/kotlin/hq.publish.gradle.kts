@@ -21,7 +21,7 @@ publishing {
         }
     }
     repositories {
-        maven("https://maven.hqservice.kr/repository/maven-releases/") {
+        maven("https://maven.hqservice.kr/repository/maven-snapshots/") {
             credentials {
                 if (extra.has("nexusUsername") && extra.has("nexusPassword")) {
                     username = extra["nexusUsername"]!!.toString()
