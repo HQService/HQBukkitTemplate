@@ -11,6 +11,6 @@ val shadowPluginVersion = properties.getProperty("shadowVersion")
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
     implementation("org.jetbrains.kotlin:kotlin-serialization:$kotlinVersion")
-    implementation("com.github.johnrengelman.shadow:com.github.johnrengelman.shadow.gradle.plugin:$shadowPluginVersion")
+    implementation("com.gradleup.shadow:shadow-gradle-plugin:$shadowPluginVersion")
     api(gradleApi())
 }
