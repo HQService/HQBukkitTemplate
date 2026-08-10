@@ -13,7 +13,7 @@ bukkitResourceGenerator {
 }
 
 dependencies {
-    compileOnly(libs.spigot.api)
+    compileOnly(libs.paper.api)
     compileOnly(framework.core)
     runtimeOnly(project(":modules:core"))
     runtimeOnly(project(":modules:api"))
